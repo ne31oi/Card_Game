@@ -1,11 +1,23 @@
 // Common styles of the project
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic');
+
+
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 
 html, body {
     height: 100%;
+
+}
+body{
+    background: url("../img/general/bg.jpg");
+
 }
 
 .page {
-    
+
 }
 
 .page__wrapper {
@@ -19,4 +31,10 @@ html, body {
 
 .page__buffer {
     height: 50px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
 }

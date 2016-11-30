@@ -1,0 +1,11 @@
+a{
+    color: blue;
+    font-size:30px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+    font-weight: bold;
+
+    &:visited{
+        color: blue;
+    }
+}
+
