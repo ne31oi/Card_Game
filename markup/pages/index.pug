@@ -7,10 +7,11 @@ html(class="no-js", lang="ru")
 
     head
         +head(head.defaults)
-    body.page
+    body
         |%=symbols=%
-
-        section.page__wrapper
+        .bg
+            img(src="../static/img/general/wlp1.jpg")
+        section.wrapper
 
             //- Include your components here
             +example()

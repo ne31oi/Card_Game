@@ -30,3 +30,6 @@
 }
 
 // You can add your own mixins here:
+@mixin brdr{
+    border: 1px solid red;
+}
